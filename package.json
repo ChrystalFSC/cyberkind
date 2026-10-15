@@ -1,0 +1,1 @@
+{"name":"cyclekind","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node --test cycle-engine.test.mjs storage.test.mjs","build":"node build.mjs","start":"node server.mjs"}}
