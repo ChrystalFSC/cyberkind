@@ -80,8 +80,7 @@ Use the same browser profile and site address to return to your saved records. A
 ```mermaid
 flowchart LR
     app["Cyclekind in<br/>your browser"] <-->|Read & save| store[("This browser's<br/>local storage")]
-    store -->|Export| backup["JSON backup file"]
-    backup -->|"Import & replace<br/>(after confirmation)"| store
+    store <-->|Export / import| backup["JSON backup file"]
 
     style app fill:#f0e7fa,stroke:#9875b7,color:#45384f
     style store fill:#faf7fd,stroke:#9875b7,color:#45384f
@@ -90,7 +89,7 @@ flowchart LR
 
 Your period dates, symptoms, and notes stay in the current browser. The app has **no record-upload endpoint, analytics, or AI calls**.
 
-**Export before changing devices, browsers, or site addresses—or clearing browser data.** Browser storage and exported backups are not encrypted by the app; keep backups somewhere private.
+**Export before changing devices, browsers, or site addresses—or clearing browser data.** Browser storage and exported backups are not encrypted by the app; keep backups somewhere private. Imports replace current records after confirmation.
 
 <details>
 <summary>More about storage and recovery</summary>
