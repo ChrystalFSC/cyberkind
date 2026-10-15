@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="estimate-title estimate-desc">
+  <title id="estimate-title">How a period estimate is formed</title>
+  <desc id="estimate-desc">Four logged period starts give three cycle lengths. In this illustrative example, 28, 30, and 29 days have a median of 29 days and a historical range of 28 to 30 days. The app adds the median to the most recent start. Actual dates may fall outside the range.</desc>
+  <rect x="1" y="1" width="998" height="298" rx="24" fill="#fcfaff" stroke="#e8dff0" stroke-width="2"/>
+  <text x="30" y="39" fill="#73578c" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">From your records to an estimate</text>
+  <g aria-hidden="true">
+    <rect x="30" y="65" width="244" height="167" rx="17" fill="#f1e8fa"/>
+    <rect x="308" y="65" width="244" height="167" rx="17" fill="#f5effb"/>
+    <rect x="586" y="65" width="384" height="167" rx="17" fill="#fff" stroke="#e2d3ee"/>
+    <path d="M282 147h17m-6-6 6 6-6 6M560 147h17m-6-6 6 6-6 6" fill="none" stroke="#b79cc9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#73578c" font-family="Arial, Helvetica, sans-serif">
+    <text x="50" y="103" font-size="20" font-weight="600">4 logged starts</text>
+    <text x="328" y="103" font-size="20" font-weight="600">3 cycle lengths</text>
+    <text x="606" y="102" font-size="17" font-weight="600">Median estimate + historical range</text>
+  </g>
+  <g aria-hidden="true">
+    <line x1="68" y1="150" x2="235" y2="150" stroke="#d6c2e5" stroke-width="2"/>
+    <g fill="#a584bd" stroke="#f1e8fa" stroke-width="5">
+      <circle cx="68" cy="150" r="17"/><circle cx="124" cy="150" r="17"/><circle cx="180" cy="150" r="17"/><circle cx="236" cy="150" r="17"/>
+    </g>
+    <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">
+      <text x="68" y="154">1</text><text x="124" y="154">2</text><text x="180" y="154">3</text><text x="236" y="154">4</text>
+    </g>
+    <rect x="328" y="129" width="60" height="42" rx="12" fill="#e8dbf3"/>
+    <rect x="400" y="129" width="60" height="42" rx="12" fill="#e8dbf3"/>
+    <rect x="472" y="129" width="60" height="42" rx="12" fill="#e8dbf3"/>
+  </g>
+  <g fill="#73578c" font-family="Arial, Helvetica, sans-serif" font-size="23" text-anchor="middle">
+    <text x="358" y="158">28</text><text x="430" y="158">30</text><text x="502" y="158">29</text>
+  </g>
+  <g fill="#91759f" font-family="Arial, Helvetica, sans-serif" font-size="13">
+    <text x="50" y="203">Record the first day of each period</text>
+    <text x="328" y="203">Days from one start to the next</text>
+  </g>
+  <text x="606" y="162" fill="#73578c" font-family="Georgia, 'Times New Roman', serif" font-size="38">29<tspan dx="5" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#9b83aa">days</tspan></text>
+  <g aria-hidden="true">
+    <line x1="796" y1="142" x2="938" y2="142" stroke="#e8dbf2" stroke-width="8" stroke-linecap="round"/>
+    <rect x="796" y="130" width="142" height="24" rx="12" fill="#f0e5f9" stroke="#a584bd" stroke-dasharray="4 4"/>
+    <circle cx="867" cy="142" r="5" fill="#73578c"/>
+  </g>
+  <g fill="#91759f" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">
+    <text x="804" y="177">28</text><text x="930" y="177">30</text>
+    <text x="867" y="197">Historical range · days</text>
+  </g>
+  <text x="606" y="215" fill="#91759f" font-family="Arial, Helvetica, sans-serif" font-size="12">Most recent start + median length</text>
+  <text x="30" y="269" fill="#91759f" font-family="Arial, Helvetica, sans-serif" font-size="15">Illustrative example · actual dates may fall outside the range</text>
+</svg>
